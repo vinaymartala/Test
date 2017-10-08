@@ -1,1 +1,3 @@
-hey
+netstat -aon | find /i "listening" - to find process
+netstat -aon |find /i "listening" |find "8080" for particular port
+taskkill /F /PID 189
